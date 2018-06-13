@@ -33,7 +33,6 @@ RUN \
   tar -xzvf fhir.tar.gz && \
   rm -f fhir.tar.gz
 
-
 WORKDIR /opt/mirth-connect
 
 EXPOSE 8080 8443
